@@ -1,7 +1,7 @@
 -------------ΠΡΩΤΑ ΑΛΛΑΓΗ ΚΩΙΚΔΟΥ ΠΕΛΑΤΗ ΣΤΗΝ ΤΡΙΤΗ ΓΡΑΜΜΗ ΣΤΟ ΤΕΛΟΣ -------------
 ------ ΑΝ ΥΠΑΡΧΟΥΝ ΕΓΓΡΑΦΕΣ ΣΤΟ ΓΡΑΝΑΖΙ ΤΑ ΣΒΉΝΕΤΕ ΟΛΑ ΑΠΟ ΟΛΑ ΤΑ TAB ΚΑΙ ΤΟ ΤΡΕΧΕΤΕ---------
 -----------------------------------------------------------------------------------
-declare @trdrid uniqueidentifier = (select gxvcustomer.TRDRID from gxvcustomer where custcode = '27645')
+declare @trdrid uniqueidentifier = (select gxvcustomer.TRDRID from gxvcustomer where custcode = '25044')
 --delete DYGXTRADER2 where DYGXTRADER2.GXTRADERID = @trdrid
 --delete  DYB2BNOTIFICATIONS where DYB2BNOTIFICATIONS.GXTRADERID = @trdrid
 IF NOT EXISTS (
@@ -324,10 +324,19 @@ INSERT INTO DYGXTRADER2 VALUES (NEWID(),@trdrid,'1','08C9782A-5AAD-5D1A-3580-019
 -------------------------transmate
 INSERT INTO DYGXTRADER2 VALUES (NEWID(),@trdrid,'1','e52df56d-f5da-9019-6968-0191f9b6e48a','d0402702-d74b-4746-8938-022f7a197418','06b7c1dc-c82d-4894-a4d6-21320a4166cc');	
 
+----------------------FORCELAND
+insert into DYGXTRADER2 values (NEWID(),@trdrid,'1','c71352f9-5550-7c6a-d99f-019c7048d46f','38d35bb8-7639-409e-9a18-977ca43b0179','70645dda-6b12-4b59-9e8c-40efb67b5607');
+insert into DYGXTRADER2 values (NEWID(),@trdrid,'1','c71352f9-5550-7c6a-d99f-019c7048d46f','b4918602-98ee-4385-ad7c-6dcb2f623a01','4b529b5d-de5e-431b-8555-0866e42e5624');
+insert into DYGXTRADER2 values (NEWID(),@trdrid,'1','c71352f9-5550-7c6a-d99f-019c7048d46f','b4918602-98ee-4385-ad7c-6dcb2f623a01','06b7c1dc-c82d-4894-a4d6-21320a4166cc');
+insert into DYGXTRADER2 values (NEWID(),@trdrid,'1','c71352f9-5550-7c6a-d99f-019c7048d46f','d0402702-d74b-4746-8938-022f7a197418','4b529b5d-de5e-431b-8555-0866e42e5624');
+insert into DYGXTRADER2 values (NEWID(),@trdrid,'1','c71352f9-5550-7c6a-d99f-019c7048d46f','38d35bb8-7639-409e-9a18-977ca43b0179','4b529b5d-de5e-431b-8555-0866e42e5624');
+insert into DYGXTRADER2 values (NEWID(),@trdrid,'1','c71352f9-5550-7c6a-d99f-019c7048d46f','38d35bb8-7639-409e-9a18-977ca43b0179','06b7c1dc-c82d-4894-a4d6-21320a4166cc');
+insert into DYGXTRADER2 values (NEWID(),@trdrid,'1','c71352f9-5550-7c6a-d99f-019c7048d46f','d0402702-d74b-4746-8938-022f7a197418','06b7c1dc-c82d-4894-a4d6-21320a4166cc');
+insert into DYGXTRADER2 values (NEWID(),@trdrid,'1','c71352f9-5550-7c6a-d99f-019c7048d46f','b4918602-98ee-4385-ad7c-6dcb2f623a01','70645dda-6b12-4b59-9e8c-40efb67b5607');
+insert into DYGXTRADER2 values (NEWID(),@trdrid,'1','c71352f9-5550-7c6a-d99f-019c7048d46f','d0402702-d74b-4746-8938-022f7a197418','70645dda-6b12-4b59-9e8c-40efb67b5607');
 
-
-
-
+---------------------TECHSHIELD
+insert into DYGXTRADER2 values (NEWID(),@trdrid,'1','8e472630-8323-8f96-bd65-019cb3ce919c','2a1c9bef-6011-4c03-a954-5238e6b62aa2','36fd4c8a-5ba8-4d7d-8de7-91074848314c');
 
 
 ----------------------- cooper nai 'ΔΥΤΙΚΗΣ ΜΑΚΕΔΟΝΙΑΣ','ΚΕΝΤΡΙΚΗΣ ΜΑΚΕΔΟΝΙΑΣ','ΑΝΑΤΟΛΙΚΗΣ ΜΑΚΕΔΟΝΙΑΣ ΚΑΙ ΘΡΑΚΗΣ'
